@@ -1,8 +1,0 @@
-Employee table with EmpId, Name, Location 
-and ManagerId columns; Write a query to find the names of 
-all employees who are working in Bangalore as well as their 
-manager's name
-
-Select e.Name as Employee_name from employees e 
-Join employees m on e.managerId = m.managerId where 
-e.Location="bengaluru";
